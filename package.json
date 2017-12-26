@@ -1,6 +1,6 @@
 {
   "name": "clone-immutable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates an immutable clone of an input object.",
   "main": "dist/clone-immutable.js",
   "module": "lib/clone-immutable.js",
