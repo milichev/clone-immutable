@@ -13,3 +13,6 @@
 /yarn.lock
 /.babelrc
 /.gitattributes
+/jasmine.json
+*.spec.js
+*.spec.js.*

@@ -2,10 +2,11 @@
   "name": "clone-immutable",
   "version": "1.0.0",
   "description": "Creates an immutable clone of an input object.",
-  "main": "dist/index.js",
-  "module": "src/index.jsx",
+  "main": "dist/clone-immutable.js",
+  "module": "lib/clone-immutable.js",
   "scripts": {
-    "build": "babel lib --out-dir dist --source-maps"
+    "build": "rimraf dist && babel lib --out-dir dist --source-maps ",
+    "watch": "./node_modules/.bin/nodemon -w lib ./node_modules/babel-cli/bin/babel-node.js ./node_modules/jasmine/bin/jasmine.js --config=jasmine.json"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,9 @@
   "homepage": "https://github.com/milichev/clone-immutable#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1"
+    "babel-preset-es2015": "^6.24.1",
+    "jasmine": "^2.8.0",
+    "nodemon": "^1.14.3",
+    "rimraf": "^2.6.2"
   }
 }
