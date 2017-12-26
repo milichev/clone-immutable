@@ -1,0 +1,15 @@
+/.idea
+/node_modules
+
+# testing
+/coverage
+
+.DS_Store
+
+*.log*
+/.npmignore
+/.editorconfig
+/.gitignore
+/yarn.lock
+/.babelrc
+/.gitattributes
